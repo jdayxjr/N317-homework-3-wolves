@@ -25,31 +25,34 @@ export default function Explore() {
                             height={200} // Set the desired height
                         />
                         <h3>Wolf Search</h3>
-                        <p>Help our scouts locate all the wolves in the national park...</p>
+                        <p>The Wolf Search initiative aims to monitor and protect the wolf populations in national parks. Our dedicated team of scouts employs advanced tracking techniques to locate these majestic creatures in their natural habitats. By studying their behavior and interactions, we gather crucial data that informs conservation efforts.
+                        </p>
                         <button className={exploreStyles.learnMoreButton}>Learn More</button>
                     </div>
 
                     <div className={exploreStyles.exploreBox}>
                         <Image
-                            src="/about-wolf.jpg" // Path relative to the 'public' folder
+                            src="/three-wolves.jpg" // Path relative to the 'public' folder
                             alt="Explore the wild"
                             width={300}  // Set the desired width
                             height={200} // Set the desired height
                         />
-                        <h3>Wolf Search</h3>
-                        <p>Help our scouts locate all the wolves in the national park...</p>
+                        <h3>Wolf Awareness Month</h3>
+                        <p>Wolf Awareness Month celebrates these incredible animals and their role in ecosystems. We host educational events and outreach programs to raise awareness about the challenges wolves face. Join us in promoting conservation efforts and ensuring a future where wolves can thrive.
+
+                        </p>
                         <button className={exploreStyles.learnMoreButton}>Learn More</button>
                     </div>
 
                     <div className={exploreStyles.exploreBox}>
                         <Image
-                            src="/about-wolf.jpg" // Path relative to the 'public' folder
+                            src="/wolves-on-log.jpg" // Path relative to the 'public' folder
                             alt="Explore the wild"
                             width={300}  // Set the desired width
                             height={200} // Set the desired height
                         />
-                        <h3>Wolf Search</h3>
-                        <p>Help our scouts locate all the wolves in the national park...</p>
+                        <h3>Wolf Recuse & Adapt</h3>
+                        <p>The Wolf Rescue & Adapt program rehabilitates injured or orphaned wolves and prepares them for life in the wild. Our team provides medical care and behavioral training tailored to each wolf's needs, enhancing their chances of survival.</p>
                         <button className={exploreStyles.learnMoreButton}>Learn More</button>
                     </div>
                 </div>
