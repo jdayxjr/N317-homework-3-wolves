@@ -1,6 +1,6 @@
 
 import "./globals.css";
-
+import Nav from "./components/Nav/page";
 
 
 export const metadata = {
@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Nav />
         {children}
       </body>
     </html>
