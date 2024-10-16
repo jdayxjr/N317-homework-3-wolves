@@ -1,6 +1,19 @@
-.image-banner{
+.imageBanner {
     width: 100%;
-    height: 400px;
-    background-image: url();
+    height: 450px;
+    background-image: url('../images/home-wolf.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    background-blend-mode: darken; /* Blend the background color and image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.bannerText {
+    color: white;
+    text-align: center;
 }
