@@ -29,3 +29,55 @@ padding-top: 20px;
     font-size: 20px;
     font-style: italic;
 }
+
+.aboutbodyContainer{
+    width: 100%;
+    
+}
+
+.aboutbodyHeader{
+   color: #4B7F52;
+   font-weight: bold;
+   font-size: 30px;
+width: 100%;
+
+text-align: center;
+margin: 25px;
+
+}
+
+.aboutbodyContent{
+    padding: 5px;
+    font-size: 18px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.aboutbodyText{
+    width: 600px;
+   
+   
+}
+.paragraph-spaced {
+    margin-bottom: 30px; 
+  }
+.aboutbodyImage{
+    background-image: url(../images/8efe2146363d742f28af03658acc0104.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 700px;
+    border: dashed 5px #EDD9A3;
+}
+
+.aboutbodyFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+}
