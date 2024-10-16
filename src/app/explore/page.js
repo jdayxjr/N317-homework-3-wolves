@@ -4,8 +4,8 @@ export default function Explore() {
     return (
         <main>
             <div className={exploreStyles.imageBanner}>
-                <div className={exploreStyles.bannerText}><h1>Wolf Wild Life</h1>
-                    <h2>exlpore the wilderness among us...</h2>
+                <div className={exploreStyles.bannerText}><h1>Wolf Wild Life Explore</h1>
+                    <p className={exploreStyles.bannerTextP}>Embark on an adventure to discover the fascinating world of wolves in their natural habitats. Learn about their behavior, tracking, and conservation efforts while immersing yourself in the beauty of the wild. Experience the wilderness like never before and join us in protecting these magnificent creatures.</p>
                 </div>
             </div>
             <div>
