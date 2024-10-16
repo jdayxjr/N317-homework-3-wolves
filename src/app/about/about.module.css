@@ -1,7 +1,9 @@
 .aboutContainer{
     width: 100%;
     height: 450px;
-    background-image: url(../images/about-wolf.jpg);
+    background-image: url(../images/aboutwolfimg.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    background-blend-mode: darken; /* Blend the background color and image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
