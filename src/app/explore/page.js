@@ -1,7 +1,10 @@
 export default function Explore() {
     return (
         <main>
-            <h1>Explore</h1>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </main>
     );
 }
