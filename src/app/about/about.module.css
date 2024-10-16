@@ -1,1 +1,29 @@
-.aboutContainer{}
+.aboutContainer{
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/about-wolf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+padding-top: 20px;
+}
+
+.aboutHeading{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.aboutmainText{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
