@@ -1,7 +1,16 @@
+"use client";  
+
+import { useState } from 'react';
 import Image from 'next/image';
 import exploreStyles from './explore.module.css';
 
-export default function ExploreImage({ title, description, imageUrl }) {
+export default function ExploreImage({ title, description, imageUrl, extraInfo }) {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const handleToggle = () => {
+        setIsExpanded(!isExpanded);
+    };
+
     return (
         <div className={exploreStyles.exploreBox}>
             <Image
@@ -12,7 +21,16 @@ export default function ExploreImage({ title, description, imageUrl }) {
             />
             <h3>{title}</h3>
             <p>{description}</p>
-            <button className={exploreStyles.learnMoreButton}>Learn More</button>
+
+            {/* Conditionally render extra information if isExpanded is true */}
+            {isExpanded && (
+                <p className={exploreStyles.extraInfo}>{extraInfo}</p>
+            )}
+
+            {/* Button toggles between "Learn More" and "Show Less" */}
+            <button onClick={handleToggle} className={exploreStyles.learnMoreButton}>
+                {isExpanded ? "Show Less" : "Learn More"}
+            </button>
         </div>
     );
 }
