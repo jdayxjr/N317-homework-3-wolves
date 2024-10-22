@@ -24,3 +24,27 @@ display: flex;
 justify-content: center;
 padding-top: 50px;
 }
+
+
+.hometextSection{
+    font-size: 20px;
+ width: 60%;
+ height: 200px;
+}
+
+.homeminiImage{
+    background-image: url(../app/images/sectionWolf.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 200px;
+}
+
+.Firstsectioncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
