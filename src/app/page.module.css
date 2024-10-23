@@ -48,3 +48,45 @@ padding-top: 50px;
     margin: 20px;
     
 }
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .leftDiv, .rightDiv {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .leftDiv img, .rightDiv img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .leftDiv p, .rightDiv p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .rightDiv {
+    margin-right: 0; /* Remove margin on the last div */
+  }
+
+  .divtext{
+    color:#4B7F52;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+  }
